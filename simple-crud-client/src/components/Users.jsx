@@ -10,6 +10,7 @@ const Users = () => {
                     users.map(user=> <div key={user._id}>
                         <h2>Name: {user.name}</h2>
                         <p>Email: {user.email}</p>
+                        <button>X</button>
                     </div> )
                 }
             </div>
